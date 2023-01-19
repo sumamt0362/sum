@@ -1,0 +1,24 @@
+import java.util.scanner
+public class constructor
+{
+int id;
+string name;
+constructor()
+{
+system.out.println("this is default constructor");
+system.out.println("student id:"+id+"\nstudent name:"+name);
+}
+constructor(int i,string n)
+{
+system.out.println("this is parameterized constructor:");
+id=i;
+name=n;
+system.out.println("student id:"+id+"\nstudent name:"+name);
+}
+public static void main(string[]args)
+{
+constructor s=new constructor();
+constructor student=new constructor(10,"david");
+}
+}
+
